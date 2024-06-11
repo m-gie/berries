@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import PopularProducts from "@/components/PopularProducts";
+import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <PopularProducts />
         <Services />
+        <Reviews />
       </div>
     </main>
   );

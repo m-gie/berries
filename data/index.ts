@@ -1,3 +1,15 @@
+export const flipWords = [
+  "juicy",
+  "fresh",
+  "delicious",
+  "organic",
+  "fruity",
+  "sweet",
+  "ripe",
+  "healthy",
+  "natural",
+];
+
 export const navItems = [
   { name: "Home", link: "#home" },
   { name: "Popular Products", link: "#products" },
@@ -47,5 +59,20 @@ export const services = [
     label: "Quality Assurance",
     description:
       "Zog tests each berry for poison. If you die, it wasn't our berry.",
+  },
+];
+
+export const reviews = [
+  {
+    imgUrl: "/caveperson1.jpg",
+    name: "Bung Ug",
+    rating: "4.5",
+    review: "I love the berries! Belly almost never hurts after I eat.",
+  },
+  {
+    imgUrl: "/caveperson2.jpg",
+    name: "Ooga",
+    rating: "2.0",
+    review: "Rasp berry tastes weird. Very hard and crunchy.",
   },
 ];
