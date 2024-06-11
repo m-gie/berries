@@ -4,6 +4,8 @@ import Image from "next/image";
 import { useState } from "react";
 import { berriesHandful, statistics } from "@/data";
 import BerryCard from "./BerryCard";
+import { FlipWords } from "./ui/FlipWords";
+import { flipWords } from "@/data";
 
 const Hero = () => {
   const [selectedBerry, setSelectedBerry] = useState("/blueberries.jpg");
@@ -18,10 +20,10 @@ const Hero = () => {
         <p className="text-green-500 text-xl">Our Seasonal Collection</p>
         <h1 className="text-8xl font-bold mt-10 max-sm:text-7xl">
           <span className="relative xl:whitespace-nowrap xl:rounded-lg z-10 xl:bg-white">
-            The Most Juicy
+            The Most <FlipWords words={flipWords} duration={5000} />
           </span>
           <br />
-          <span>Tasty </span>
+          <span>Fresh </span>
           <span className="text-green-500">Berries</span>
         </h1>
         <p className="text-gray-500 text-lg leading-8 mt-8 mb-14 sm:max-w-sm">
@@ -44,7 +46,7 @@ const Hero = () => {
           alt="berries"
           width={500}
           height={610}
-          className="object-contain relative z-10"
+          className="object-contain relative z-9"
         />
         <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
           {berriesHandful.map((berry, idx) => (

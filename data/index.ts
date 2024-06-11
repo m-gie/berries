@@ -1,13 +1,13 @@
 export const flipWords = [
-  "juicy",
-  "fresh",
-  "delicious",
-  "organic",
-  "fruity",
-  "sweet",
-  "ripe",
-  "healthy",
-  "natural",
+  "Juicy",
+  "Tasty",
+  "Delicious",
+  "Organic",
+  "Fruity",
+  "Sweet",
+  "Ripe",
+  "Healthy",
+  "Natural",
 ];
 
 export const navItems = [
