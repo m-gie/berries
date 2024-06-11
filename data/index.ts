@@ -28,3 +28,24 @@ export const popularProducts = [
   },
   { imgUrl: "/red.jpg", name: "Red Berries", price: "2", rating: "4.8" },
 ];
+
+export const services = [
+  {
+    imgUrl: "/throw.svg",
+    label: "Free Shipping",
+    description:
+      "You throw us shiny rocks, we throw you berries. It's a win-win.",
+  },
+  {
+    imgUrl: "/predator.svg",
+    label: "Secure Payment",
+    description:
+      "Zog uses the latest technology to keep you and your shiny rocks safe from predators.",
+  },
+  {
+    imgUrl: "/poison.svg",
+    label: "Quality Assurance",
+    description:
+      "Zog tests each berry for poison. If you die, it wasn't our berry.",
+  },
+];

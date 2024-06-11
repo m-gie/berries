@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Right side */}
-      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-green-500 bg-cover bg-center rounded-2xl">
+      <div className="relative flex-1 flex justify-center items-center xl:min-h-[90vh] h-[90vh] max-xl:py-40 bg-green-500 bg-cover bg-center rounded-2xl">
         <Image
           src={selectedBerry}
           alt="berries"

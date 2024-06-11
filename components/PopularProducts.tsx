@@ -10,8 +10,8 @@ const PopularProducts = () => {
           Our <span className="text-green-500">Popular</span> Products
         </h2>
         <p className="lg:max-w-lg mt-2 text-gray-500">
-          Eat tasty berries without gathering. You can focus on hunting with
-          your belly full of juicy goodness.
+          Eat tasty berries without the need for gathering. Now you can focus on
+          hunting with your belly full of juicy goodness.
         </p>
       </div>
       <div className=" grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
