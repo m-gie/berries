@@ -24,7 +24,9 @@ const Hero = () => {
           </span>
           <br />
           <span>Fresh </span>
-          <span className="text-green-500">Berries</span>
+          <span className="relative text-green-500 bg-white rounded-lg z-10">
+            Berries
+          </span>
         </h1>
         <p className="text-gray-500 text-lg leading-8 mt-8 mb-14 sm:max-w-sm">
           You give shiny stones. Zog gives tasty berries. Berries fill tummy.
@@ -40,7 +42,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Right side */}
-      <div className="relative flex-1 flex justify-center items-center xl:min-h-[90vh] h-[90vh] max-xl:py-40 bg-green-500 bg-cover bg-center rounded-2xl">
+      <div className="relative flex-1 flex justify-center items-center xl:min-h-[90vh] min-h-[20rem] max-xl:py-40 bg-green-500 bg-cover bg-center rounded-2xl">
         <Image
           src={selectedBerry}
           alt="berries"

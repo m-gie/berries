@@ -9,5 +9,10 @@ red berries https://www.pexels.com/photo/glazy-fresh-red-currant-12733469/
 green berries https://www.pexels.com/photo/green-grapes-in-close-up-photography-9607462/
 
 star https://www.svgrepo.com/svg/513408/star
+throw https://www.svgrepo.com/svg/453193/discus-throw
+poison https://www.svgrepo.com/svg/449403/poison
+predator https://www.svgrepo.com/svg/481061/werewolf-2
+
+caveperson https://www.pexels.com/photo/smiling-woman-wearing-a-caveman-fur-14260612/
 
 shiny stone <a href="https://www.flaticon.com/free-icons/mineral" title="mineral icons">Mineral icons created by Flat Icons - Flaticon</a> https://www.flaticon.com/free-icon/stone_3967811?term=mineral&page=1&position=89&origin=search&related_id=3967811
