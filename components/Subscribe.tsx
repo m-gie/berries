@@ -2,9 +2,9 @@ import React from "react";
 
 const Subscribe = () => {
   return (
-    <section className="max-container mt-32">
+    <section className="max-container mt-32 mb-24 max-sm:p-8">
       <div className="flex flex-row justify-between max-sm:flex-col items-center">
-        <h3 className="font-bold text-4xl max-w-md leading-[68px]">
+        <h3 className="font-bold text-4xl max-w-md leading-[68px] max-sm:w-full">
           Subscribe for <span className="text-green-500">Updates</span> and
           Newsletter!
         </h3>
@@ -14,7 +14,7 @@ const Subscribe = () => {
             placeholder="subscribe@berries.com"
             className="input"
           />
-          <div className="flex max-sm:justify-end items-center max-sm:w-full">
+          <div className="flex max-sm:justify-end items-center max-sm:w-full max-sm:flex-col max-sm:mt-2 gap-2">
             <button className="px-12 py-4 rounded-full bg-green-500 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-green-400 transition-colors duration-200">
               Subscribe
             </button>

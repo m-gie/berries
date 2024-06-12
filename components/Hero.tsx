@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-12 max-container"
+      className="w-full flex xl:flex-row flex-col justify-center gap-12 max-container"
     >
       {/* Left side */}
       <div className="relative xl:w-[40%] flex flex-col items-start w-full pt-28 max-sm:p-8">
