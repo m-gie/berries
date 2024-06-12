@@ -4,7 +4,7 @@ import { attributions } from "@/data";
 
 const Footer = () => {
   return (
-    <section className="w-full bg-green-500 text-white">
+    <section id="footer" className="w-full bg-green-500 text-white">
       <div className="max-container pt-12 flex flex-col lg:flex-row justify-between">
         <div className="pb-12 max-w-[40%]">
           <div className="flex flex-row items-center gap-5">

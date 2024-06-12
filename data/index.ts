@@ -15,7 +15,7 @@ export const navItems = [
   { name: "Home", link: "#home" },
   { name: "Popular Products", link: "#products" },
   { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Contact", link: "#footer" },
 ];
 
 export const berriesHandful = [

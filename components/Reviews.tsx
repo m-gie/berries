@@ -5,7 +5,7 @@ import ReviewCard from "./ReviewCard";
 const Reviews = () => {
   return (
     <section
-      id="reviews"
+      id="testimonials"
       className="max-container mt-32 bg-green-100 rounded-xl"
     >
       <h3 className="text-center font-bold text-4xl pt-12">
