@@ -20,4 +20,7 @@
     max-width: 1440px;
     margin: 0 auto;
   }
+  .input {
+    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-gray-500 pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-green-500 max-sm:rounded-full;
+  }
 }
