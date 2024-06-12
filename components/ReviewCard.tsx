@@ -13,7 +13,7 @@ const ReviewCard = ({
   review: string;
 }) => {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center mb-12">
       <Image
         src={imgUrl}
         alt={name}

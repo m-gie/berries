@@ -8,7 +8,7 @@ const Reviews = () => {
       id="reviews"
       className="max-container mt-32 bg-green-100 rounded-xl"
     >
-      <h3 className="text-center font-bold text-4xl">
+      <h3 className="text-center font-bold text-4xl pt-12">
         What Our <span className="text-green-500">Customers</span> Say?
       </h3>
       <p className="m-auto mt-4 max-w-lg text-center text-gray-500">
