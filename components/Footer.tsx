@@ -5,7 +5,7 @@ import { attributions } from "@/data";
 const Footer = () => {
   return (
     <section id="footer" className="w-full bg-green-500 text-white">
-      <div className="max-container pt-12 flex flex-col lg:flex-row justify-between">
+      <div className="max-container pt-12 flex flex-col lg:flex-row justify-between max-sm:mx-8">
         <div className="pb-12 max-w-[40%]">
           <div className="flex flex-row items-center gap-5">
             <Image
@@ -40,7 +40,9 @@ const Footer = () => {
           <p className="text-white/75">maciejglowacki0@gmail.com</p>
         </div>
       </div>
-      <div className="max-container pt-12">© Maciej Głowacki, 2024</div>
+      <div className="max-container pt-12 max-sm:mx-8">
+        © Maciej Głowacki, 2024
+      </div>
     </section>
   );
 };
