@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import PopularProducts from "@/components/PopularProducts";
 import Reviews from "@/components/Reviews";
@@ -16,6 +17,7 @@ export default function Home() {
         <Services />
         <Reviews />
         <Subscribe />
+        <Footer />
       </div>
     </main>
   );

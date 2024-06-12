@@ -26,7 +26,7 @@ export const berriesHandful = [
 
 export const statistics = [
   { value: "8", label: "Baskets of Berries" },
-  { value: "12+", label: "Flavors" },
+  { value: "12+", label: "Flavours" },
   { value: "~23", label: "Happy Customers" },
 ];
 
@@ -75,5 +75,59 @@ export const reviews = [
     name: "Ooga",
     rating: "2.0",
     review: "Rasp Berry tastes weird. Very hard and crunchy.",
+  },
+];
+
+export const attributions = [
+  {
+    label: "Berries Logo",
+    link: "https://www.flaticon.com/free-icon/berries_3380650",
+  },
+  {
+    label: "Hands Holding Green Berries",
+    link: "https://www.pexels.com/photo/hands-holding-green-berries-16238699/",
+  },
+  {
+    label: "Black Beans",
+    link: "https://www.pexels.com/photo/black-beans-302577/",
+  },
+  {
+    label: "Hands Holding Berries",
+    link: "https://www.pexels.com/photo/hands-holding-berries-3098664/",
+  },
+  {
+    label: "Green and Grey Circuit Board",
+    link: "https://www.pexels.com/photo/green-and-grey-circuit-board-57007/",
+  },
+  {
+    label: "Photo of Blueberries",
+    link: "https://www.pexels.com/photo/photo-of-blueberries-1153655/",
+  },
+  {
+    label: "Glazy Fresh Red Currant",
+    link: "https://www.pexels.com/photo/glazy-fresh-red-currant-12733469/",
+  },
+  {
+    label: "Green Grapes in Close-up Photography",
+    link: "https://www.pexels.com/photo/green-grapes-in-close-up-photography-9607462/",
+  },
+  { label: "Star", link: "https://www.svgrepo.com/svg/513408/star" },
+  {
+    label: "Discus Throw",
+    link: "https://www.svgrepo.com/svg/453193/discus-throw",
+  },
+  { label: "Poison", link: "https://www.svgrepo.com/svg/449403/poison" },
+  { label: "Werewolf", link: "https://www.svgrepo.com/svg/481061/werewolf-2" },
+  {
+    label: "Shiny Stone",
+    link: "https://www.flaticon.com/free-icon/stone_3967811",
+  },
+  {
+    label: "Smiling Woman Wearing a Caveman Fur",
+    link: "https://www.pexels.com/photo/smiling-woman-wearing-a-caveman-fur-14260612/",
+  },
+  {
+    label: "Neanderthals Stone Age",
+    link: "https://pixabay.com/illustrations/neanderthals-stone-age-8783874/",
   },
 ];
