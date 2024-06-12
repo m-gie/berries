@@ -4,6 +4,7 @@ export const flipWords = [
   "Delicious",
   "Organic",
   "Fruity",
+  "Yummy",
   "Sweet",
   "Ripe",
   "Healthy",
@@ -64,15 +65,15 @@ export const services = [
 
 export const reviews = [
   {
-    imgUrl: "/caveperson1.jpg",
+    imgUrl: "/caveperson2.jpg",
     name: "Bung Ug",
     rating: "4.5",
     review: "I love the berries! Belly almost never hurts after I eat.",
   },
   {
-    imgUrl: "/caveperson2.jpg",
+    imgUrl: "/caveperson.jpg",
     name: "Ooga",
     rating: "2.0",
-    review: "Rasp berry tastes weird. Very hard and crunchy.",
+    review: "Rasp Berry tastes weird. Very hard and crunchy.",
   },
 ];

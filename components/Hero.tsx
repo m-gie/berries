@@ -17,9 +17,9 @@ const Hero = () => {
     >
       {/* Left side */}
       <div className="relative xl:w-[40%] flex flex-col items-start w-full pt-28 max-sm:p-8">
-        <p className="text-green-500 text-xl">Our Seasonal Collection</p>
+        <p className="text-green-500 text-xl">Zog&apos;s Seasonal Collection</p>
         <h1 className="text-8xl font-bold mt-10 max-sm:text-7xl">
-          <span className="relative xl:whitespace-nowrap xl:rounded-lg z-10 xl:bg-white">
+          <span className="relative xl:whitespace-nowrap xl:rounded-lg z-20 xl:bg-white">
             The Most <FlipWords words={flipWords} duration={5000} />
           </span>
           <br />
